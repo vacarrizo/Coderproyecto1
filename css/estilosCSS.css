@@ -1,0 +1,231 @@
+/*generales*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #001F3F; }
+
+html {
+  font-family: Roboto; }
+
+/*header*/
+.nav-container {
+  max-width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+#logo {
+  width: 250px;
+  height: 250px;
+  margin-top: 25px; }
+
+.nav-container ul {
+  float: right;
+  height: 100px;
+  line-height: 300px;
+  margin: 0 5px; }
+
+.nav-container ul li {
+  list-style: none;
+  float: left;
+  margin: 0 15px; }
+
+.nav-container li a {
+  text-decoration: none;
+  color: #fe7d6c;
+  transition: .5s; }
+
+.nav-container li a:hover {
+  color: #3381f3; }
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none; }
+
+/*sectionSabores*/
+.sectionSabores {
+  background-color: #AACCB1;
+  width: 95%;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.articlechocolates {
+  background-color: #68B3AF;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+.articledulces {
+  background-color: #68B3AF;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+.articlecremas {
+  background-color: #68B3AF;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+.articlefrutales {
+  background-color: #68B3AF;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+/*Container*/
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 6em; }
+
+h3 {
+  font-size: 9em; }
+
+.container {
+  background: #d9efef;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.9em;
+  grid-template-columns: repeat(5, 1fr); }
+
+.container > .heaader,
+.container > .content,
+.container > .sidebar,
+.container > .footer,
+.container > .div {
+  background: #d9efef;
+  padding: 20px;
+  border: 1px solid #000000; }
+
+.container > .header,
+.container > .footer {
+  grid-column: 1/6;
+  background: #f8e8e9;
+  color: #d9efef; }
+
+.container > .content {
+  grid-column: span 3;
+  grid-row: span 4; }
+
+.container > .article {
+  background: #808e9b;
+  padding: 40px;
+  margin-top: 5px;
+  color: #dfe609; }
+
+.content .article h1,
+.content .article p {
+  padding: 20px; }
+
+/*slider*/
+.container > .sidebar {
+  grid-column: span 2;
+  grid-row: span 4;
+  background: #485460;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.container .sidebar img {
+  display: block;
+  width: 100%;
+  margin-top: 5px; }
+
+/* footer */
+footer {
+  background-color: #666;
+  padding: 5em 0;
+  padding-bottom: 40px;
+  border-top: 5px solid #3381f3; }
+  footer h2,
+  footer p,
+  footer a,
+  footer span {
+    color: #D1D1D1; }
+  footer h2 {
+    font-weight: 400; }
+  footer a {
+    text-decoration: none; }
+  footer ul {
+    padding: 0; }
+    footer ul li {
+      list-style: none; }
+
+.footer-box {
+  width: 31%;
+  padding: 1%;
+  float: left; }
+
+wrapper:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.company-footer {
+  width: 10%; }
+
+.company-footer h2 {
+  margin-top: 20px; }
+
+.company-footer h2,
+.company-footer p {
+  margin-bottom: 0px; }
+
+.footer-list li {
+  margin-bottom: 15px; }
+
+.footer-list a {
+  transition: 0.5s; }
+
+.footer-list a:hover {
+  color: #FFF; }
+
+.footer-list li:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.articles-footer {
+  width: 80%; }
+
+.footer-list.footer-article-list span {
+  display: block;
+  float: none; }
+
+.fab {
+  font-size: 30px;
+  margin-right: 10px;
+  float: left; }
+
+.footer-list li span {
+  float: left;
+  height: 30px;
+  line-height: 30px; }
+
+.footer-bottom {
+  border-top: 1px solid #B2B2B2; }
+
+.footer-bottom p {
+  font-weight: 600;
+  margin-top: 40px; }

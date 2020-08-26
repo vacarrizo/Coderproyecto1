@@ -1,0 +1,95 @@
+/*header*/
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	width: 250px;
+	height: 250px;
+	margin-top: 25px;
+
+}
+
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 300px;
+	margin: 0 5px;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	color: #fe7d6c;
+	transition: .5s;
+}
+
+.nav-container li a:hover {
+	color: #3381f3;
+}
+
+
+.Menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style:none;
+}
+
+/*sectionSabores*/
+.sectionSabores{
+	background-color: #AACCB1;
+	width: 95%;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.articlechocolates {
+	background-color: #68B3AF;
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+.articledulces {
+	background-color: #68B3AF;
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+.articlecremas {
+	background-color: #68B3AF;
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+.articlefrutales {
+	background-color: #68B3AF;
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
